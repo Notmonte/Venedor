@@ -10,6 +10,7 @@
 * {box-sizing: border-box;}
 
 .sectionTop-header {
+    border-top: 2px solid var(--circle);
     background-color: var(--head-color);
 }
 
@@ -50,6 +51,10 @@
     margin-top: 8px;
 }
 
+.text-link {
+    color: var(--circle);
+}
+
 .logo {
     margin-top: 40px;
     font-family: var(--logo-font);
@@ -74,22 +79,59 @@
     font-size: 42.99px;
 }
 
-/* .btn-div {
-    margin-top: 60px;
-    padding: 6px 14px;
-    width: 80px;
-    height: 40px;
-    font-size: 15px;
-    text-transform: capitalize;
-    color: white;
-    border-radius: 1px;
-    border: 1px solid var(--usBtn-color);
-    background-color: var(--usBtn-color);
-} */
-
 #usBtn {
     color: var(--usBtn-text);
     margin-top: 60px;
     border: 1px solid var(--usBtn-color);
-    
+    padding: 6px;
+}
+
+.header-btn2 {
+    background-color: var(--circle);
+}
+
+.bi-cart-fill2 {
+    color: white;
+}
+
+.btn2-text {
+    color: white;
+}
+
+.uk-flag-icon {
+    width: 15px;
+}
+
+.header-h2 {
+    font-size: 18px;
+    color: black;
+}
+
+.header-h2:hover {
+    color: var(--circle);
+}
+
+.headerh2-link {
+    margin-top: 20px;
+    padding-right: 68px;
+}
+
+.headh2-nav {
+    margin-top: 90px;
+}
+
+.bar {
+    width: 10px;
+}
+
+.search {
+    font: italic;
+    margin-top: 82px;
+}
+
+.bi-search {
+    margin-bottom: 3.45px;
+    background-color: var(--head-text);
+    border: 2px solid var(--head-text);
+    border-radius: 5px;
 }
